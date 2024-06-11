@@ -1,12 +1,19 @@
 import { useState } from "react";
 import "./App.css";
+import NavBar from "./components/NavBar.tsx";
+import HeroBar from "./components/HeroBar.tsx";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <div>
+        <div className="bg-[url('./../bg-port.webp')] bg-center bg-cover h-screen">
+          <NavBar />
+          <HeroBar />
+        </div>
+      </div>
     </>
   );
 }
