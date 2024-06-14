@@ -1,14 +1,13 @@
 import React from "react";
 
-export default function Section() {
+export default function Section3() {
   return (
     <div>
       <div className="bg-black flex place-content-center mt-2 p-24">
         <div className="flex gap-4 flex-col text-white place-content-center w-[605px]">
-          <h1 className="font-bold text-5xl">Disfruta en tu TV</h1>
+          <h1 className="font-bold text-5xl">Disfruta donde quieras</h1>
           <h2 className="text-2xl">
-            Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV,
-            reproductores de Blu-ray y más.
+            Películas y series ilimitadas en tu teléfono, tablet, laptop y TV.
           </h2>
         </div>
         <div className="relative h-[450px] w-[600px]">
