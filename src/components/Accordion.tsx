@@ -13,15 +13,15 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
   };
 
   return (
-    <div className="rounded mb-4 flex flex-col w-[1200px]">
+    <div className="rounded mb-2 flex flex-col w-[1464px]">
       <div
         className="bg-[#222] hover:bg-[#333] text-white p-4 cursor-pointer flex justify-between"
         onClick={toggleAccordion}
       >
-        <h2 className="text-lg font-medium">{title}</h2>
+        <h2 className="text-[24px] font-medium">{title}</h2>
         <span>{isOpen ? "-" : "+"}</span>
       </div>
-      {isOpen && <div className=" p-4 bg-[#222] text-white text-left">{content}</div>}
+      {isOpen && <div className=" p-4 bg-[#222] text-white mt-[1px] text-[24px] text-left">{content}</div>}
     </div>
   );
 };

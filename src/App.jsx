@@ -7,6 +7,7 @@ import Section2 from "./components/Section2.tsx";
 import Section3 from "./components/Section3.tsx";
 import Section4 from "./components/Section4.tsx";
 import SectionPreguntas from "./components/SectionPreguntas.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,6 +25,9 @@ function App() {
           <Section3 />
           <Section4 />
           <SectionPreguntas />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </>

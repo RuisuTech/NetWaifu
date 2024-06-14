@@ -83,7 +83,7 @@ const SectionPreguntas: React.FC = () => {
 
   return (
     <div className="bg-black flex mt-2 p-24 place-content-center w-full">
-      <div className="p-8 text-center w-[1220px]">
+      <div className="p-8 text-center">
         <h1 className="text-5xl text-white font-bold mb-6">
           Preguntas Frecuentes
         </h1>
