@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div className="bg-[#222]">
-        <div className="bg-[url('./../bg-port.webp')] bg-center bg-cover h-[100vh]">
+        <div className="bg-[url('./../bg-port.webp')] bg-center bg-cover">
           <NavBar />
           <HeroBar />
         </div>

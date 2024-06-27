@@ -2,7 +2,6 @@ import React from "react";
 import Accordion from "./Accordion";
 import EmailPregunta from "./EmailPregunta";
 
-
 const SectionPreguntas: React.FC = () => {
   const accordionItems = [
     {
@@ -71,11 +70,11 @@ const SectionPreguntas: React.FC = () => {
         <p>
           La experiencia de Netflix para niños está incluida en la membresía
           para que los padres tengan el control mientras los peques disfrutan
-          series y películas familiares en su propio espacio. <br /><br /> Los perfiles para
-          niños incluyen controles parentales protegidos por PIN que te permiten
-          restringir el contenido que pueden ver los niños en función de la
-          clasificación por edad y bloquear determinados títulos que no quieras
-          que los niños vean.
+          series y películas familiares en su propio espacio. <br />
+          <br /> Los perfiles para niños incluyen controles parentales
+          protegidos por PIN que te permiten restringir el contenido que pueden
+          ver los niños en función de la clasificación por edad y bloquear
+          determinados títulos que no quieras que los niños vean.
         </p>
       ),
     },
@@ -84,10 +83,12 @@ const SectionPreguntas: React.FC = () => {
   return (
     <div className="bg-black flex mt-2 p-24 place-content-center w-full">
       <div className="p-8 text-center">
-        <h1 className="text-5xl text-white font-bold mb-6">
+        <h1 className="text-5xl max-md:text-2xl text-white font-bold mb-6">
           Preguntas Frecuentes
         </h1>
-        <Accordion items={accordionItems} />
+        <div className="flex">
+          <Accordion items={accordionItems} />
+        </div>
         <EmailPregunta />
       </div>
     </div>

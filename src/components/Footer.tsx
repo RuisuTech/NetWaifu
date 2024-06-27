@@ -4,11 +4,11 @@ export default function Footer() {
   return (
     <div>
       <div className="bg-black mt-2 text-[#ffffffb3] flex place-content-center py-[72px]">
-        <div className="flex flex-col w-[1464px] gap-8">
+        <div className="flex flex-col w-[1464px] gap-8 ml-4">
           <div>
             <h3 className="text-[16px]">¿Preguntas? Llama al 0-000-00000</h3>
           </div>
-          <div className="flex gap-64 text-[14px] underline">
+          <div className="flex gap-64 max-md:gap-8 text-[14px] underline flex-wrap">
             <ul>
               <li>Preguntas frecuentes</li>
               <li>Relaciones con inversionistas</li>
